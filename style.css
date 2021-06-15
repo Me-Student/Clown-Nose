@@ -1,0 +1,25 @@
+h3
+{
+    font-size: 25px !important;
+}
+.btn-success:hover
+{
+    background-color: red;
+}
+canvas
+{
+    animation-name: example; /* Used to tell what the animation should be */
+    animation-duration: 4s; /* How long should the animation run */
+    animation-iteration-count: infinite; /* The animation will work continusly */
+}
+@keyframes example  /* @keyframes is a key word used when we want to defin an animation */
+{
+    from
+    {
+        box-shadow: 1px 1px 38px red;
+    }
+    to
+    {
+        box-shadow: 1px 1px 38px rgb(251, 255, 0);
+    }
+}
